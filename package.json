@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "svgr": "svgr ./src/assets/icons -d ./src/icons --svg-props 'className=' --svgo-config .svgorc.json"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +31,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@svgr/cli": "^5.4.0",
+    "node-sass": "^4.14.1"
   }
 }

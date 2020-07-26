@@ -1,0 +1,32 @@
+.DonationHero {
+  background: linear-gradient(180deg, #009974 10%, rgba(0, 153, 112, 0)),
+    url("../../../assets/img/donation-hero-bg.png") !important;
+  height: 300px;
+  padding: 20px 0;
+  background-position: 50%!important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+  &-title {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid hsla(0, 0%, 79.2%, 0.27059);
+    padding: 10px;
+
+    h1 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0;
+      margin-left: 14px;
+    }
+  }
+
+  &-desc {
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgba(251, 248, 229, 0.75);
+    line-height: 30px;
+    width: 65%;
+  }
+}
